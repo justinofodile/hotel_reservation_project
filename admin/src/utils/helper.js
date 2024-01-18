@@ -1,1 +1,1 @@
-export const backendUrl = "http://localhost:4000/api"
+export const backendUrl = "https://blue-rattlesnake-yoke.cyclic.app/api" 
