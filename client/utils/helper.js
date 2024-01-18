@@ -1,0 +1,1 @@
+export const backendUrl = "https://blue-rattlesnake-yoke.cyclic.app/api" 
