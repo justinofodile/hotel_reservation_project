@@ -26,7 +26,7 @@ mongoose.connection.on("disconnected", () => {
 
 //middlewares
 app.use(cors({
-  origin: ["https://hotel-reservation-project-eight.vercel.app", "https://hotel-reservation-project-ns7t.vercel.app"],
+  origin: ["https://hotel-reservation-project-eight.vercel.app", "https://hotel-reservation-project-pj6h.vercel.app/login"],
   // origin: ["http://localhost:3000", "https://hotel-reservation-project-eight.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
   credentials: true,
