@@ -1,0 +1,42 @@
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 500;
+}
+
+.navButton {
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}
+
+.logoutbtn {
+  color: white;
+  margin-left: 10px;
+  background-color: #003580;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btnUser {
+  color: white;
+  background-color: #003580;
+  border: none;
+}
