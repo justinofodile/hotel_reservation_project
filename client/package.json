@@ -43,5 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:4000/api"
+  "proxy": "https://blue-rattlesnake-yoke.cyclic.app/api"
 }
