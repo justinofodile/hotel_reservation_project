@@ -1,10 +1,10 @@
-import axios from "axios";
+import axios from "../../utils/axios";
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/AuthContext";
 // import { AuthContext } from "../../context/AuthContext";
 import "./login.scss";
-import { backendUrl } from "../../utils/helper";
+// import { backendUrl } from "../../utils/helper";
 import { useCookies } from "react-cookie";
 
 const Login = () => {
@@ -26,7 +26,7 @@ const Login = () => {
     e.preventDefault();
     dispatch({ type: "LOGIN_START" });
     try {
-      const res = await axios.post(`${backendUrl}/auth/login`, credentials);
+      const res = await axios.post(`/auth/login`, credentials);
       if (res.data.isAdmin) {
         dispatch({ type: "LOGIN_SUCCESS", payload: res.data.details });
         setCookies("access_token", res.data.token, { path: "/" });
